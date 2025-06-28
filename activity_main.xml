@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        tools:text="Questão 1/10" />
+
+    <TextView
+        android:id="@+id/textViewPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        tools:text="Qual o nome da clave que define a posição da nota Sol na pauta?" />
+
+    <Button
+        android:id="@+id/buttonOpcao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        tools:text="Opção 1" />
+
+    <Button
+        android:id="@+id/buttonOpcao2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        tools:text="Opção 2" />
+
+    <Button
+        android:id="@+id/buttonOpcao3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        tools:text="Opção 3" />
+
+    <Button
+        android:id="@+id/buttonOpcao4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="Opção 4" />
+
+    <TextView
+        android:id="@+id/textViewFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Resposta Correta!" />
+
+    <Button
+        android:id="@+id/buttonProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Próxima Pergunta"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>
